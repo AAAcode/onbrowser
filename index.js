@@ -3,7 +3,7 @@
  */
 //
 
-var shell = require('shelljs');
+var shelljs = require('shelljs');
 var open = require('open');
 shelljs.exec("node_modules/bin/http-server", {async: true} );
 
